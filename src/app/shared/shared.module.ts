@@ -5,6 +5,11 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatExpansionModule } from '@angular/material/expansion';
+import { MatTreeModule } from '@angular/material/tree';
+import { MatIconModule } from '@angular/material/icon';
+import { MatDividerModule } from '@angular/material/divider';
+import { MatListModule } from '@angular/material/list';
+import { AppRoutingModule } from '../app-routing.module';
 
 @NgModule({
   declarations: [],
@@ -12,13 +17,19 @@ import { MatExpansionModule } from '@angular/material/expansion';
     CommonModule,
     BrowserAnimationsModule,
     MatToolbarModule,
-    MatExpansionModule
+    MatExpansionModule,
+    AppRoutingModule
   ],
   exports: [
     BrowserAnimationsModule,
     MatToolbarModule,
     MatSidenavModule,
-    MatExpansionModule
+    MatExpansionModule,
+    MatTreeModule,
+    MatIconModule,
+    MatDividerModule,
+    MatListModule,
+    AppRoutingModule
   ]
 })
 export class SharedModule { }
