@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.106
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LeagueOfLegendsCommon", "LeagueOfLegendsCommon", "{174DCF6C-6F07-4DA9-B219-C61B5E6970AD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LifeCycleChampions", "LifeCycleChampions", "{B0F4C7F4-AAEF-4D8E-9338-A7E5FA36E6AE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoLCommon", "LeagueOfLegendsCommon\LoLCommon\LoLCommon.csproj", "{8541B7D9-E765-4F5F-8DAE-723113E9E294}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LCC.Api", "LifeCycleChampions\LCC.Api\LCC.Api.csproj", "{98562E46-84C7-4679-B0DD-B9E181801901}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LCC.Models", "LifeCycleChampions\LCC.Models\LCC.Models.csproj", "{70C8BC82-EAD9-4BD6-9378-6174914C962D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LCC.Data", "LifeCycleChampions\LCC.Data\LCC.Data.csproj", "{08A92DF7-43EF-4054-8B65-70C61C5CFE09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LCC.Services", "LifeCycleChampions\LCC.Services\LCC.Services.csproj", "{5B42285F-6E3D-4C9D-8201-56A0B7C18416}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8541B7D9-E765-4F5F-8DAE-723113E9E294}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8541B7D9-E765-4F5F-8DAE-723113E9E294}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8541B7D9-E765-4F5F-8DAE-723113E9E294}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8541B7D9-E765-4F5F-8DAE-723113E9E294}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98562E46-84C7-4679-B0DD-B9E181801901}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98562E46-84C7-4679-B0DD-B9E181801901}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98562E46-84C7-4679-B0DD-B9E181801901}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98562E46-84C7-4679-B0DD-B9E181801901}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70C8BC82-EAD9-4BD6-9378-6174914C962D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70C8BC82-EAD9-4BD6-9378-6174914C962D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70C8BC82-EAD9-4BD6-9378-6174914C962D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70C8BC82-EAD9-4BD6-9378-6174914C962D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08A92DF7-43EF-4054-8B65-70C61C5CFE09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08A92DF7-43EF-4054-8B65-70C61C5CFE09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08A92DF7-43EF-4054-8B65-70C61C5CFE09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08A92DF7-43EF-4054-8B65-70C61C5CFE09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B42285F-6E3D-4C9D-8201-56A0B7C18416}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B42285F-6E3D-4C9D-8201-56A0B7C18416}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B42285F-6E3D-4C9D-8201-56A0B7C18416}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B42285F-6E3D-4C9D-8201-56A0B7C18416}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8541B7D9-E765-4F5F-8DAE-723113E9E294} = {174DCF6C-6F07-4DA9-B219-C61B5E6970AD}
+		{98562E46-84C7-4679-B0DD-B9E181801901} = {B0F4C7F4-AAEF-4D8E-9338-A7E5FA36E6AE}
+		{70C8BC82-EAD9-4BD6-9378-6174914C962D} = {B0F4C7F4-AAEF-4D8E-9338-A7E5FA36E6AE}
+		{08A92DF7-43EF-4054-8B65-70C61C5CFE09} = {B0F4C7F4-AAEF-4D8E-9338-A7E5FA36E6AE}
+		{5B42285F-6E3D-4C9D-8201-56A0B7C18416} = {B0F4C7F4-AAEF-4D8E-9338-A7E5FA36E6AE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {50B7E984-A69B-4BDB-A265-24D901C3210A}
+	EndGlobalSection
+EndGlobal
