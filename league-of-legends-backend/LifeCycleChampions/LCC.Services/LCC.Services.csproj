@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\LeagueOfLegendsCommon\LoLCommon\LoLCommon.csproj" />
+    <ProjectReference Include="..\LCC.Data\LCC.Data.csproj" />
+    <ProjectReference Include="..\LCC.Models\LCC.Models.csproj" />
+  </ItemGroup>
+
+</Project>
