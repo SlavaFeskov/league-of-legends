@@ -6,6 +6,11 @@ namespace LCC.Data
 {
     public class LCCContext : DbContext
     {
+        public LCCContext(DbContextOptions options) 
+            : base(options)
+        {            
+        }        
+
         public DbSet<Champion> Champions { get; set; }
         public DbSet<ChampionInfo> ChampionInfos { get; set; }
         public DbSet<ChampionStats> ChampionStats { get; set; }
@@ -22,6 +27,6 @@ namespace LCC.Data
             modelBuilder.ApplyConfiguration(new PassiveEntityConfiguration());
             modelBuilder.ApplyConfiguration(new SkinEntityConfiguration());
             modelBuilder.ApplyConfiguration(new TagEntityConfiguration());
-        }
+        }        
     }
 }
